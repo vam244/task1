@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+}
+.master{
+    
+}
+.su1,.su2{
+    float: left;
+}
+.i1,.i2,.i3,.i4{
+    margin: 20px;
+    float: left;
+    background-image: linear-gradient( to top right, rgb(80, 188, 239),rgb(63, 63, 244));
+    border-radius: 20px;
+    width:300px;
+    height:200px;
+
+}
+@media only screen and (max-width:1380px){
+.master{
+margin-left:10vw;
+margin-right: auto;
+}
+}
+@media only screen and (max-width:672px){
+    .master{
+    margin-left:15vw;
+    margin-right: auto;
+    }
+    }
